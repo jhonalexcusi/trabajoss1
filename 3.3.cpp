@@ -18,6 +18,8 @@ int main() {
    
    if (x > 2) {
       y = pow(y, 2);
+   } else {
+      y -= 2;
    }
    
    cout << "La solución para x es: " << x << endl;
@@ -25,5 +27,3 @@ int main() {
    
    return 0;
 }
-
-// MODIFICAR EL EJERCICIO PARA EL CASO QUE SI EL RESULTADO DE "X" ES MAYOR QUE 2, EL RESULTADO DE "Y", DEBERA SER ELEVADO AL CUADRADO, CASO CONTRARIO SE LE RESTARA 2
