@@ -2,13 +2,13 @@
 using namespace std;
 
 int main() {
-    // Pedir al usuario que introduzca la medida en pies
-    float pies;
-    cout << "Introduzca la medida en pies: ";
-    cin >> pies;
+    // Pedir al usuario que introduzca la medida en yardas
+    float yardas;
+    cout << "Introduzca la medida en yardas: ";
+    cin >> yardas;
 
-    // Convertir a yardas
-    float yardas = pies / 3;
+    // Convertir a pies
+    float pies = yardas * 3;
 
     // Convertir a pulgadas
     float pulgadas = pies * 12;
@@ -20,12 +20,11 @@ int main() {
     float metros = centimetros / 100;
 
     // Mostrar resultados
-    cout << pies << " pies equivalen a:" << endl;
-    cout << yardas << " yardas" << endl;
+    cout << yardas << " yardas equivalen a:" << endl;
+    cout << pies << " pies" << endl;
     cout << pulgadas << " pulgadas" << endl;
     cout << centimetros << " centimetros" << endl;
     cout << metros << " metros" << endl;
 
     return 0;
 }
-// CONVERTIR YARDAS A PIES
