@@ -62,7 +62,7 @@ int main() {
     cout << "Monedas de 2 euros: " << monedas_2 << endl;
     cout << "Monedas de 1 euro: " << monedas_1 << endl;
     cout << "Monedas de 50 céntimos: " << monedas_50c << endl;
-    cout << "Monedas de 20 céntimos: " << monedas_20c << endl;
+    cout << "Monedas de 20 céntimos: " << mowrnedas_20c << endl;
     cout << "Monedas de 10 céntimos: " << monedas_10c << endl;
     cout << "Monedas de 5 céntimos: " << monedas_5c << endl;
 
